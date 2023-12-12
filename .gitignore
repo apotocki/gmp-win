@@ -1,0 +1,7 @@
+Debug dll
+Release dll
+Debug lib
+Release lib
+x64
+*.user
+/.vs

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\devel">
+      <UniqueIdentifier>{f7f52d95-3f94-4fe1-ba6a-26a3c48b41c1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="gmp-test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\tests\misc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\tests\memory.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\tests\refmpn.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\tests\trace.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\tests\refmpz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\tests\refmpq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\tests\refmpf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\tests\devel\primes.c">
+      <Filter>Source Files\devel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\tests\spinner.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\tests\devel\test-add_ssaaaa.c">
+      <Filter>Source Files\devel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\tests\devel\test-sub_ddmmss.c">
+      <Filter>Source Files\devel</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

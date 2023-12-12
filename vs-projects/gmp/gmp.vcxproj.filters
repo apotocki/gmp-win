@@ -1,0 +1,1566 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="mpz">
+      <UniqueIdentifier>{8a9bb933-323f-4ac2-bff4-b08649f72e7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mpn">
+      <UniqueIdentifier>{e7b79845-867f-4000-8e53-936fddbf5242}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rand">
+      <UniqueIdentifier>{bac9e72c-8fc1-40d5-8ecd-48f0785da613}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mpq">
+      <UniqueIdentifier>{bac9e72c-8fc1-40d5-8ecd-48f0785da614}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mpf">
+      <UniqueIdentifier>{bac9e72c-8fc1-40d5-8ecd-48f0785da615}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="printf">
+      <UniqueIdentifier>{bac9e72c-8fc1-40d5-8ecd-48f0785da616}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scanf">
+      <UniqueIdentifier>{bac9e72c-8fc1-40d5-8ecd-48f0785da617}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\packages\gmp\mpz\get_str.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\get_str.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\add.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\add_1.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\add_err1_n.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\add_err2_n.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\add_err3_n.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\add_n.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\add_n_sub_n.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\addmul_1.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\bdiv_dbm1c.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\bdiv_q.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\bdiv_q_1.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\bdiv_qr.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\binvert.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\broot.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\brootinv.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\bsqrt.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\bsqrtinv.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\cmp.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\cnd_add_n.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\cnd_sub_n.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\cnd_swap.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\com.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\comb_tables.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\compute_powtab.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\copyd.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\copyi.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\dcpi1_bdiv_q.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\dcpi1_bdiv_qr.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\dcpi1_div_q.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\dcpi1_div_qr.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\dcpi1_divappr_q.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\div_q.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\div_qr_1.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\div_qr_1n_pi1.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\div_qr_1n_pi2.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\div_qr_1u_pi2.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\div_qr_2.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\div_qr_2n_pi1.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\div_qr_2u_pi1.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\dive_1.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\diveby3.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\divexact.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\divis.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\divrem.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\divrem_1.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\divrem_2.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\dump.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\fib2_ui.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\fib2m.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\gcd.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\gcd_1.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\gcd_11.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\gcd_22.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\gcd_subdiv_step.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\gcdext.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\gcdext_1.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\gcdext_lehmer.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\get_d.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\hgcd.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\hgcd_appr.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\hgcd_jacobi.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\hgcd_matrix.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\hgcd_reduce.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\hgcd_step.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\hgcd2.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\hgcd2_jacobi.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\invert.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\invertappr.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\jacbase.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\jacobi.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\jacobi_2.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\logops_n.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\lshift.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\lshiftc.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\matrix22_mul.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\matrix22_mul1_inverse_vector.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\mod_1.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\mod_1_1.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\mod_1_2.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\mod_1_3.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\mod_1_4.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\mod_34lsub1.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\mode1o.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\mu_bdiv_q.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\mu_bdiv_qr.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\mu_div_q.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\mu_div_qr.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\mu_divappr_q.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\mul.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\mul_1.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\mul_basecase.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\mul_fft.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\mul_n.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\mullo_basecase.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\mullo_n.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\mulmid.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\mulmid_basecase.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\mulmid_n.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\mulmod_bknp1.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\mulmod_bnm1.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\neg.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\nussbaumer_mul.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\perfpow.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\perfsqr.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\popham.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\pow_1.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\powlo.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\powm.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\pre_divrem_1.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\pre_mod_1.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\random.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\random2.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\redc_1.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\redc_2.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\redc_n.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\remove.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\rootrem.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\rshift.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\sbpi1_bdiv_q.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\sbpi1_bdiv_qr.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\sbpi1_bdiv_r.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\sbpi1_div_q.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\sbpi1_div_qr.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\sbpi1_divappr_q.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\scan0.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\scan1.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\sec_aors_1.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\sec_div.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\sec_invert.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\sec_mul.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\sec_pi1_div.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\sec_powm.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\sec_sqr.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\sec_tabselect.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\set_str.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\sizeinbase.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\sqr.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\sqr_basecase.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\sqrlo.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\sqrlo_basecase.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\sqrmod_bnm1.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\sqrtrem.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\strongfibo.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\sub.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\sub_1.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\sub_err1_n.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\sub_err2_n.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\sub_err3_n.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\sub_n.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\submul_1.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\tdiv_qr.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom_couple_handling.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom_eval_dgr3_pm1.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom_eval_dgr3_pm2.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom_eval_pm1.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom_eval_pm2.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom_eval_pm2exp.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom_eval_pm2rexp.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom_interpolate_12pts.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom_interpolate_16pts.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom_interpolate_5pts.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom_interpolate_6pts.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom_interpolate_7pts.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom_interpolate_8pts.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom2_sqr.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom22_mul.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom3_sqr.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom32_mul.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom33_mul.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom4_sqr.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom42_mul.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom42_mulmid.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom43_mul.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom44_mul.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom52_mul.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom53_mul.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom54_mul.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom6_sqr.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom62_mul.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom63_mul.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom6h_mul.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom8_sqr.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom8h_mul.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\trialdiv.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\udiv_w_sdiv.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\zero.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\zero_p.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\rand\rand.c">
+      <Filter>rand</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\rand\randbui.c">
+      <Filter>rand</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\rand\randclr.c">
+      <Filter>rand</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\rand\randdef.c">
+      <Filter>rand</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\rand\randiset.c">
+      <Filter>rand</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\rand\randlc2s.c">
+      <Filter>rand</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\rand\randlc2x.c">
+      <Filter>rand</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\rand\randmt.c">
+      <Filter>rand</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\rand\randmts.c">
+      <Filter>rand</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\rand\randmui.c">
+      <Filter>rand</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\rand\rands.c">
+      <Filter>rand</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\rand\randsd.c">
+      <Filter>rand</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\rand\randsdui.c">
+      <Filter>rand</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\2fac_ui.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\abs.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\add.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\add_ui.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\and.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\aorsmul.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\aorsmul_i.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\array_init.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\bin_ui.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\bin_uiui.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\cdiv_q.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\cdiv_q_ui.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\cdiv_qr.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\cdiv_qr_ui.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\cdiv_r.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\cdiv_r_ui.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\cdiv_ui.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\cfdiv_q_2exp.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\cfdiv_r_2exp.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\clear.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\clears.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\clrbit.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\cmp.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\cmp_d.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\cmp_si.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\cmp_ui.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\cmpabs.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\cmpabs_d.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\cmpabs_ui.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\com.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\combit.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\cong.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\cong_2exp.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\cong_ui.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\dive_ui.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\divegcd.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\divexact.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\divis.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\divis_2exp.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\divis_ui.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\dump.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\export.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\fac_ui.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\fdiv_q.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\fdiv_q_ui.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\fdiv_qr.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\fdiv_qr_ui.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\fdiv_r.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\fdiv_r_ui.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\fdiv_ui.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\fib_ui.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\fib2_ui.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\fits_sint.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\fits_slong.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\fits_sshort.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\fits_uint.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\fits_ulong.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\fits_ushort.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\gcd.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\gcd_ui.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\gcdext.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\get_d.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\get_d_2exp.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\get_si.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\get_ui.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\getlimbn.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\hamdist.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\import.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\init.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\init2.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\inits.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\inp_raw.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\inp_str.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\invert.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\ior.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\iset.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\iset_d.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\iset_si.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\iset_str.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\iset_ui.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\jacobi.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\kronsz.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\kronuz.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\kronzs.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\kronzu.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\lcm.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\lcm_ui.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\limbs_finish.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\limbs_modify.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\limbs_read.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\limbs_write.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\lucmod.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\lucnum_ui.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\lucnum2_ui.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\mfac_uiui.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\millerrabin.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\mod.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\mul.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\mul_2exp.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\mul_si.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\mul_ui.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\n_pow_ui.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\neg.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\nextprime.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\oddfac_1.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\out_raw.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\out_str.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\perfpow.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\perfsqr.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\popcount.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\pow_ui.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\powm.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\powm_sec.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\powm_ui.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\pprime_p.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\primorial_ui.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\prodlimbs.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\random.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\random2.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\realloc.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\realloc2.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\remove.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\roinit_n.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\root.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\rootrem.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\rrandomb.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\scan0.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\scan1.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\set.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\set_d.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\set_f.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\set_q.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\set_si.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\set_str.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\set_ui.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\setbit.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\size.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\sizeinbase.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\sqrt.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\sqrtrem.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\stronglucas.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\sub.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\sub_ui.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\swap.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\tdiv_q.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\tdiv_q_2exp.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\tdiv_q_ui.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\tdiv_qr.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\tdiv_qr_ui.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\tdiv_r.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\tdiv_r_2exp.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\tdiv_r_ui.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\tdiv_ui.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\tstbit.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\ui_pow_ui.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\ui_sub.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\urandomb.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\urandomm.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\xor.c">
+      <Filter>mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\abs.c">
+      <Filter>mpq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\aors.c">
+      <Filter>mpq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\canonicalize.c">
+      <Filter>mpq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\clear.c">
+      <Filter>mpq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\clears.c">
+      <Filter>mpq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\cmp.c">
+      <Filter>mpq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\cmp_si.c">
+      <Filter>mpq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\cmp_ui.c">
+      <Filter>mpq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\div.c">
+      <Filter>mpq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\equal.c">
+      <Filter>mpq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\get_d.c">
+      <Filter>mpq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\get_den.c">
+      <Filter>mpq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\get_num.c">
+      <Filter>mpq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\get_str.c">
+      <Filter>mpq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\init.c">
+      <Filter>mpq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\inits.c">
+      <Filter>mpq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\inp_str.c">
+      <Filter>mpq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\inv.c">
+      <Filter>mpq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\md_2exp.c">
+      <Filter>mpq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\mul.c">
+      <Filter>mpq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\neg.c">
+      <Filter>mpq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\out_str.c">
+      <Filter>mpq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\set.c">
+      <Filter>mpq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\set_d.c">
+      <Filter>mpq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\set_den.c">
+      <Filter>mpq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\set_f.c">
+      <Filter>mpq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\set_num.c">
+      <Filter>mpq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\set_si.c">
+      <Filter>mpq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\set_str.c">
+      <Filter>mpq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\set_ui.c">
+      <Filter>mpq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\set_z.c">
+      <Filter>mpq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\swap.c">
+      <Filter>mpq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\abs.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\add.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\add_ui.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\ceilfloor.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\clear.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\clears.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\cmp.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\cmp_d.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\cmp_si.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\cmp_ui.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\cmp_z.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\div.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\div_2exp.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\div_ui.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\dump.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\eq.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\fits_sint.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\fits_slong.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\fits_sshort.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\fits_uint.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\fits_ulong.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\fits_ushort.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\get_d.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\get_dfl_prec.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\get_d_2exp.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\get_prc.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\get_si.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\get_str.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\get_ui.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\init.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\init2.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\inits.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\inp_str.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\int_p.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\iset.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\iset_d.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\iset_si.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\iset_str.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\iset_ui.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\mul.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\mul_2exp.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\mul_ui.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\neg.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\out_str.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\pow_ui.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\random2.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\reldiff.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\set.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\set_d.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\set_dfl_prec.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\set_prc.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\set_prc_raw.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\set_q.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\set_si.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\set_str.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\set_ui.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\set_z.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\size.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\sqrt.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\sqrt_ui.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\sub.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\sub_ui.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\swap.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\trunc.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\ui_div.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\ui_sub.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpf\urandomb.c">
+      <Filter>mpf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\printf\asprintf.c">
+      <Filter>printf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\printf\asprntffuns.c">
+      <Filter>printf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\printf\doprnt.c">
+      <Filter>printf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\printf\doprntf.c">
+      <Filter>printf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\printf\doprnti.c">
+      <Filter>printf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\printf\fprintf.c">
+      <Filter>printf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\printf\obprintf.c">
+      <Filter>printf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\printf\obprntffuns.c">
+      <Filter>printf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\printf\obvprintf.c">
+      <Filter>printf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\printf\printf.c">
+      <Filter>printf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\printf\printffuns.c">
+      <Filter>printf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\printf\repl-vsnprintf.c">
+      <Filter>printf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\printf\snprintf.c">
+      <Filter>printf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\printf\snprntffuns.c">
+      <Filter>printf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\printf\sprintf.c">
+      <Filter>printf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\printf\sprintffuns.c">
+      <Filter>printf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\printf\vasprintf.c">
+      <Filter>printf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\printf\vfprintf.c">
+      <Filter>printf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\printf\vprintf.c">
+      <Filter>printf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\printf\vsnprintf.c">
+      <Filter>printf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\printf\vsprintf.c">
+      <Filter>printf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\scanf\doscan.c">
+      <Filter>scanf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\scanf\fscanf.c">
+      <Filter>scanf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\scanf\fscanffuns.c">
+      <Filter>scanf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\scanf\scanf.c">
+      <Filter>scanf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\scanf\sscanf.c">
+      <Filter>scanf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\scanf\sscanffuns.c">
+      <Filter>scanf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\scanf\vfscanf.c">
+      <Filter>scanf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\scanf\vscanf.c">
+      <Filter>scanf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\scanf\vsscanf.c">
+      <Filter>scanf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mp_minv_tab.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mp_clz_tab.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\tal-reent.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mp_bases.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\assert.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fib_table.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\nextprime.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\errno.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\extract-dbl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\invalid.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\memory.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mp_bpl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mp_dv_tab.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mp_get_fns.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mp_set_fns.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\primesieve.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\version.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mpn_sec_ops.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\x86_64\fat\fat.c">
+      <Filter>mpn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\compat.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
