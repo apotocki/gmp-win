@@ -1,0 +1,47 @@
+name: Build GMP Library
+on:
+  release:
+    types: [published]
+  push:
+    tags:
+        - 6.**
+  workflow_dispatch:
+jobs:
+  Build:
+    runs-on: windows-latest
+    timeout-minutes: 10
+    steps:
+    - uses: actions/checkout@v3
+      with: 
+        submodules: 'true'
+    - name: setup-msbuild
+      uses: microsoft/setup-msbuild@v1
+    - name: Build
+      run: |
+        msbuild vs-projects\gmp\gmp.vcxproj -target:Build /P:Configuration="Debug Dll" /p:Platform="x64"
+        msbuild vs-projects\gmp\gmp.vcxproj -target:Build /P:Configuration="Debug lib" /p:Platform="x64"
+        msbuild vs-projects\gmp\gmp.vcxproj -target:Build /P:Configuration="Release dll" /p:Platform="x64"
+        msbuild vs-projects\gmp\gmp.vcxproj -target:Build /P:Configuration="Release lib" /p:Platform="x64"
+        msbuild vs-projects\gmpxx\gmpxx.vcxproj -target:Build /P:Configuration="Debug Dll" /p:Platform="x64"
+        msbuild vs-projects\gmpxx\gmpxx.vcxproj -target:Build /P:Configuration="Debug lib" /p:Platform="x64"
+        msbuild vs-projects\gmpxx\gmpxx.vcxproj -target:Build /P:Configuration="Release dll" /p:Platform="x64"
+        msbuild vs-projects\gmpxx\gmpxx.vcxproj -target:Build /P:Configuration="Release lib" /p:Platform="x64"
+    - name: Prepare Release
+      run: |
+        mkdir build\include
+        mkdir build\lib
+        mkdir build\bin
+        xcopy vs-projects\gmp\gmp.h build\include
+        xcopy "vs-projects\gmp\x64\Debug dll\*.dll" build\bin\
+        xcopy "vs-projects\gmp\x64\Debug dll\*.lib" build\lib\
+        xcopy "vs-projects\gmp\x64\Debug lib\*.lib" build\lib\
+        xcopy "vs-projects\gmp\x64\Release dll\*.dll" build\bin\
+        xcopy "vs-projects\gmp\x64\Release dll\*.lib" build\lib\
+        xcopy "vs-projects\gmp\x64\Release lib\*.lib" build\lib\
+        Compress-Archive -Path build/* -Destination gmp-6.3.0.zip
+    - name: Release
+      uses: softprops/action-gh-release@v1
+      if: startsWith(github.ref, 'refs/tags/')
+      with:
+        files: |
+          *.zip

@@ -1,0 +1,1179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug dll|x64">
+      <Configuration>Debug dll</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release dll|x64">
+      <Configuration>Release dll</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug lib|x64">
+      <Configuration>Debug lib</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release lib|x64">
+      <Configuration>Release lib</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="fib_table.c" />
+    <ClCompile Include="mpn_sec_ops.c" />
+    <ClCompile Include="mp_bases.c" />
+    
+    <ClCompile Include="..\..\packages\gmp\assert.c" />
+    <ClCompile Include="..\..\packages\gmp\compat.c" />
+    <ClCompile Include="..\..\packages\gmp\errno.c" />
+    <ClCompile Include="..\..\packages\gmp\extract-dbl.c" />
+    <ClCompile Include="..\..\packages\gmp\invalid.c" />
+    <ClCompile Include="..\..\packages\gmp\memory.c" />
+    <ClCompile Include="..\..\packages\gmp\mp_bpl.c" />
+    <ClCompile Include="..\..\packages\gmp\mp_clz_tab.c" />
+    <ClCompile Include="..\..\packages\gmp\mp_dv_tab.c" />
+    <ClCompile Include="..\..\packages\gmp\mp_get_fns.c" />
+    <ClCompile Include="..\..\packages\gmp\mp_minv_tab.c" />
+    <ClCompile Include="..\..\packages\gmp\mp_set_fns.c" />
+    <ClCompile Include="..\..\packages\gmp\nextprime.c" />
+    <ClCompile Include="..\..\packages\gmp\primesieve.c" />
+    
+    <ClCompile Include="..\..\packages\gmp\scanf\fscanf.c" />
+    <ClCompile Include="..\..\packages\gmp\scanf\fscanffuns.c" />
+    <ClCompile Include="..\..\packages\gmp\scanf\scanf.c" />
+    <ClCompile Include="..\..\packages\gmp\scanf\sscanf.c" />
+    <ClCompile Include="..\..\packages\gmp\scanf\sscanffuns.c" />
+    <ClCompile Include="..\..\packages\gmp\scanf\vfscanf.c" />
+    <ClCompile Include="..\..\packages\gmp\scanf\vscanf.c" />
+    <ClCompile Include="..\..\packages\gmp\scanf\vsscanf.c" />
+    <ClCompile Include="..\..\packages\gmp\tal-reent.c" />
+    <ClCompile Include="..\..\packages\gmp\version.c" />
+    
+    <ClCompile Include="..\..\packages\gmp\printf\asprintf.c" />
+    <ClCompile Include="..\..\packages\gmp\printf\asprntffuns.c" />
+    <ClCompile Include="..\..\packages\gmp\printf\doprnt.c" />
+    <ClCompile Include="..\..\packages\gmp\printf\doprntf.c" />
+    <ClCompile Include="..\..\packages\gmp\printf\doprnti.c" />
+    <ClCompile Include="..\..\packages\gmp\printf\fprintf.c" />
+    <ClCompile Include="..\..\packages\gmp\printf\obprintf.c" />
+    <ClCompile Include="..\..\packages\gmp\printf\obprntffuns.c" />
+    <ClCompile Include="..\..\packages\gmp\printf\obvprintf.c" />
+    <ClCompile Include="..\..\packages\gmp\printf\printf.c" />
+    <ClCompile Include="..\..\packages\gmp\printf\printffuns.c" />
+    <ClCompile Include="..\..\packages\gmp\printf\repl-vsnprintf.c" />
+    <ClCompile Include="..\..\packages\gmp\printf\snprintf.c" />
+    <ClCompile Include="..\..\packages\gmp\printf\snprntffuns.c" />
+    <ClCompile Include="..\..\packages\gmp\printf\sprintf.c" />
+    <ClCompile Include="..\..\packages\gmp\printf\sprintffuns.c" />
+    <ClCompile Include="..\..\packages\gmp\printf\vasprintf.c" />
+    <ClCompile Include="..\..\packages\gmp\printf\vfprintf.c" />
+    <ClCompile Include="..\..\packages\gmp\printf\vprintf.c" />
+    <ClCompile Include="..\..\packages\gmp\printf\vsnprintf.c" />
+    <ClCompile Include="..\..\packages\gmp\printf\vsprintf.c" />
+    
+    <ClCompile Include="..\..\packages\gmp\rand\rand.c" />
+    <ClCompile Include="..\..\packages\gmp\rand\randbui.c" />
+    <ClCompile Include="..\..\packages\gmp\rand\randclr.c" />
+    <ClCompile Include="..\..\packages\gmp\rand\randdef.c" />
+    <ClCompile Include="..\..\packages\gmp\rand\randiset.c" />
+    <ClCompile Include="..\..\packages\gmp\rand\randlc2s.c" />
+    <ClCompile Include="..\..\packages\gmp\rand\randlc2x.c" />
+    <ClCompile Include="..\..\packages\gmp\rand\randmt.c" />
+    <ClCompile Include="..\..\packages\gmp\rand\randmts.c" />
+    <ClCompile Include="..\..\packages\gmp\rand\randmui.c" />
+    <ClCompile Include="..\..\packages\gmp\rand\rands.c" />
+    <ClCompile Include="..\..\packages\gmp\rand\randsd.c" />
+    <ClCompile Include="..\..\packages\gmp\rand\randsdui.c" />
+    
+    <ClCompile Include="..\..\packages\gmp\mpf\abs.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\add.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\add_ui.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\ceilfloor.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\clear.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\clears.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\cmp.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\cmp_d.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\cmp_si.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\cmp_ui.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\cmp_z.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\div.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\div_2exp.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\div_ui.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\dump.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\eq.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\fits_sint.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\fits_slong.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\fits_sshort.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\fits_uint.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\fits_ulong.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\fits_ushort.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\get_d.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\get_dfl_prec.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\get_d_2exp.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\get_prc.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\get_si.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\get_str.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\get_ui.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\init.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\init2.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\inits.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\inp_str.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\int_p.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\iset.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\iset_d.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\iset_si.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\iset_str.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\iset_ui.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\mul.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\mul_2exp.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\mul_ui.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\neg.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\out_str.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\pow_ui.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\random2.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\reldiff.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\set.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\set_d.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\set_dfl_prec.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\set_prc.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\set_prc_raw.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\set_q.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\set_si.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\set_str.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\set_ui.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\set_z.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\size.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\sqrt.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\sqrt_ui.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\sub.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\sub_ui.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\swap.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\trunc.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\ui_div.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\ui_sub.c" />
+    <ClCompile Include="..\..\packages\gmp\mpf\urandomb.c" />
+    
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\addmul_1.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\add_err1_n.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\add_err2_n.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\add_err3_n.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\add_n.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\add_n_sub_n.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\bdiv_dbm1c.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\bdiv_q.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\bdiv_qr.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\bdiv_q_1.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\binvert.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\broot.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\brootinv.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\bsqrt.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\bsqrtinv.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\cnd_add_n.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\cnd_sub_n.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\cnd_swap.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\comb_tables.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\compute_powtab.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\copyd.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\copyi.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\dcpi1_bdiv_q.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\dcpi1_bdiv_qr.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\dcpi1_divappr_q.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\dcpi1_div_q.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\dcpi1_div_qr.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\diveby3.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\dive_1.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\divrem.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\divrem_1.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\divrem_2.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\div_q.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\div_qr_1.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\div_qr_1n_pi1.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\div_qr_1n_pi2.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\div_qr_1u_pi2.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\div_qr_2.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\div_qr_2n_pi1.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\div_qr_2u_pi1.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\fib2m.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\gcdext_1.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\gcdext_lehmer.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\gcd_1.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\gcd_11.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\gcd_22.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\gcd_subdiv_step.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\hgcd.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\hgcd2.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\hgcd2_jacobi.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\hgcd_appr.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\hgcd_jacobi.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\hgcd_matrix.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\hgcd_reduce.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\hgcd_step.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\invertappr.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\jacbase.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\jacobi_2.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\lshift.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\lshiftc.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\matrix22_mul.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\matrix22_mul1_inverse_vector.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\mode1o.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\mod_1.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\mod_1_1.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\mod_1_2.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\mod_1_3.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\mod_1_4.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\mod_34lsub1.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\mullo_basecase.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\mullo_n.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\mulmid.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\mulmid_basecase.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\mulmid_n.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\mulmod_bknp1.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\mulmod_bnm1.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\mul_1.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\mul_basecase.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\mul_fft.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\mul_n.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\mu_bdiv_q.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\mu_bdiv_qr.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\mu_divappr_q.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\mu_div_q.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\mu_div_qr.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\nussbaumer_mul.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\powlo.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\pow_1.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\pre_divrem_1.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\pre_mod_1.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\redc_1.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\redc_2.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\redc_n.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\rshift.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\sbpi1_bdiv_q.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\sbpi1_bdiv_qr.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\sbpi1_bdiv_r.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\sbpi1_divappr_q.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\sbpi1_div_q.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\sbpi1_div_qr.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\sec_invert.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\sec_mul.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\sec_powm.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\sec_sqr.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\sec_tabselect.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\sqr.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\sqrlo.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\sqrlo_basecase.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\sqrmod_bnm1.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\sqr_basecase.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\strongfibo.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\submul_1.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\sub_err1_n.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\sub_err2_n.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\sub_err3_n.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\sub_n.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom22_mul.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom2_sqr.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom32_mul.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom33_mul.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom3_sqr.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom42_mul.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom42_mulmid.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom43_mul.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom44_mul.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom4_sqr.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom52_mul.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom53_mul.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom54_mul.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom62_mul.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom63_mul.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom6h_mul.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom6_sqr.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom8h_mul.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom8_sqr.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom_couple_handling.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom_eval_dgr3_pm1.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom_eval_dgr3_pm2.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom_eval_pm1.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom_eval_pm2.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom_eval_pm2exp.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom_eval_pm2rexp.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom_interpolate_12pts.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom_interpolate_16pts.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom_interpolate_5pts.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom_interpolate_6pts.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom_interpolate_7pts.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\toom_interpolate_8pts.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\trialdiv.c" />
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\zero.c" />
+    
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\com.c">
+      <ObjectFileName>$(IntDir)mpn_com.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\divexact.c">
+      <ObjectFileName>$(IntDir)mpn_divexact.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\divis.c">
+      <ObjectFileName>$(IntDir)mpn_divis.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\dump.c">
+      <ObjectFileName>$(IntDir)mpn_dump.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\fib2_ui.c">
+      <ObjectFileName>$(IntDir)mpn_fib2_ui.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\gcd.c">
+      <ObjectFileName>$(IntDir)mpn_gcd.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\gcdext.c">
+      <ObjectFileName>$(IntDir)mpn_gcdext.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\get_d.c">
+      <ObjectFileName>$(IntDir)mpn_get_d.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\get_str.c">
+      <ObjectFileName>$(IntDir)mpn_get_str.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\invert.c">
+      <ObjectFileName>$(IntDir)mpn_invert.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\jacobi.c">
+      <ObjectFileName>$(IntDir)mpn_jacobi.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\mul.c">
+      <ObjectFileName>$(IntDir)mpn_mul.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\perfpow.c">
+      <ObjectFileName>$(IntDir)mpn_perfpow.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\perfsqr.c">
+      <ObjectFileName>$(IntDir)mpn_perfsql.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\powm.c">
+      <ObjectFileName>$(IntDir)mpn_powm.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\random.c">
+      <ObjectFileName>$(IntDir)mpn_random.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\random2.c">
+      <ObjectFileName>$(IntDir)mpn_random2.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\remove.c">
+      <ObjectFileName>$(IntDir)mpn_remove.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\rootrem.c">
+      <ObjectFileName>$(IntDir)mpn_rootrem.obj</ObjectFileName>
+    </ClCompile>
+        <ClCompile Include="..\..\packages\gmp\mpn\generic\scan0.c">
+      <ObjectFileName>$(IntDir)mpn_scan0.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\scan1.c">
+      <ObjectFileName>$(IntDir)mpn_scan1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\set_str.c">
+      <ObjectFileName>$(IntDir)mpn_set_str.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\sizeinbase.c">
+      <ObjectFileName>$(IntDir)mpn_sizeinbase.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\sqrtrem.c">
+      <ObjectFileName>$(IntDir)mpn_sqrtrem.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\tdiv_qr.c">
+      <ObjectFileName>$(IntDir)mpn_tdiv_qr.obj</ObjectFileName>
+    </ClCompile>
+    
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\add_1.c">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\add.c">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\cmp.c">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\logops_n.c">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\neg.c">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\popham.c">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\sec_aors_1.c">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\sec_div.c">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\sec_pi1_div.c">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\sub.c">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\sub_1.c">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\udiv_w_sdiv.c">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\generic\zero_p.c">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpn\x86_64\fat\fat.c">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    
+    <ClCompile Include="..\..\packages\gmp\mpq\abs.c">
+      <ObjectFileName>$(IntDir)mpq_abs.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\aors.c">
+      <ObjectFileName>$(IntDir)mpq_aors.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\canonicalize.c">
+      <ObjectFileName>$(IntDir)mpq_canonicalize.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\clear.c">
+      <ObjectFileName>$(IntDir)mpq_clear.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\clears.c">
+      <ObjectFileName>$(IntDir)mpq_clears.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\cmp.c">
+      <ObjectFileName>$(IntDir)mpq_cmp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\cmp_si.c">
+      <ObjectFileName>$(IntDir)mpq_cmp_si.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\cmp_ui.c">
+      <ObjectFileName>$(IntDir)mpq_cmp_ui.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\div.c">
+      <ObjectFileName>$(IntDir)mpq_div.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\equal.c">
+      <ObjectFileName>$(IntDir)mpq_equal.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\get_d.c">
+      <ObjectFileName>$(IntDir)mpq_get_d.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\get_den.c">
+      <ObjectFileName>$(IntDir)mpq_get_den.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\get_num.c">
+      <ObjectFileName>$(IntDir)mpq_get_num.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\get_str.c">
+      <ObjectFileName>$(IntDir)mpq_get_str.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\init.c">
+      <ObjectFileName>$(IntDir)mpq_init.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\inits.c">
+      <ObjectFileName>$(IntDir)mpq_inits.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\inp_str.c">
+      <ObjectFileName>$(IntDir)mpq_inp_str.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\inv.c">
+      <ObjectFileName>$(IntDir)mpq_inv.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\md_2exp.c">
+      <ObjectFileName>$(IntDir)mpq_md_2exp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\mul.c">
+      <ObjectFileName>$(IntDir)mpq_mul.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\neg.c">
+      <ObjectFileName>$(IntDir)mpq_neg.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\out_str.c">
+      <ObjectFileName>$(IntDir)mpq_out_str.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\set.c">
+      <ObjectFileName>$(IntDir)mpq_set.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\set_d.c">
+      <ObjectFileName>$(IntDir)mpq_set_d.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\set_den.c">
+      <ObjectFileName>$(IntDir)mpq_set_den.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\set_f.c">
+      <ObjectFileName>$(IntDir)mpq_set_f.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\set_num.c">
+      <ObjectFileName>$(IntDir)mpq_set_num.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\set_si.c">
+      <ObjectFileName>$(IntDir)mpq_set_si.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\set_str.c">
+      <ObjectFileName>$(IntDir)mpq_set_str.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\set_ui.c">
+      <ObjectFileName>$(IntDir)mpq_set_ui.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\set_z.c">
+      <ObjectFileName>$(IntDir)mpq_set_z.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpq\swap.c">
+      <ObjectFileName>$(IntDir)mpq_swap.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\2fac_ui.c">
+      <ObjectFileName>$(IntDir)mpz_2fac_ui.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\abs.c">
+      <ObjectFileName>$(IntDir)mpz_abs.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\add.c">
+      <ObjectFileName>$(IntDir)mpz_add.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\add_ui.c">
+      <ObjectFileName>$(IntDir)mpz_add_ui.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\and.c">
+      <ObjectFileName>$(IntDir)mpz_and.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\aorsmul.c">
+      <ObjectFileName>$(IntDir)mpz_aorsmul.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\aorsmul_i.c">
+      <ObjectFileName>$(IntDir)mpz_aorsmul_i.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\array_init.c">
+      <ObjectFileName>$(IntDir)mpz_array_init.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\bin_ui.c">
+      <ObjectFileName>$(IntDir)mpz_bin_ui.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\bin_uiui.c">
+      <ObjectFileName>$(IntDir)mpz_bin_uiui.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\cdiv_q.c">
+      <ObjectFileName>$(IntDir)mpz_cdiv_q.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\cdiv_qr.c">
+      <ObjectFileName>$(IntDir)mpz_cdiv_qr.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\cdiv_qr_ui.c">
+      <ObjectFileName>$(IntDir)mpz_cdiv_qr_ui.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\cdiv_q_ui.c">
+      <ObjectFileName>$(IntDir)mpz_cdiv_q_ui.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\cdiv_r.c">
+      <ObjectFileName>$(IntDir)mpz_cdiv_r.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\cdiv_r_ui.c">
+      <ObjectFileName>$(IntDir)mpz_cdiv_r_ui.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\cdiv_ui.c">
+      <ObjectFileName>$(IntDir)mpz_cdiv_ui.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\cfdiv_q_2exp.c">
+      <ObjectFileName>$(IntDir)mpz_cfdiv_q_2exp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\cfdiv_r_2exp.c">
+      <ObjectFileName>$(IntDir)mpz_cfdiv_r_2exp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\clear.c">
+      <ObjectFileName>$(IntDir)mpz_clear.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\clears.c">
+      <ObjectFileName>$(IntDir)mpz_clears.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\clrbit.c">
+      <ObjectFileName>$(IntDir)mpz_clrbit.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\cmp.c">
+      <ObjectFileName>$(IntDir)mpz_cmp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\cmpabs.c">
+      <ObjectFileName>$(IntDir)mpz_cmpabs.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\cmpabs_d.c">
+      <ObjectFileName>$(IntDir)mpz_cmpabs_d.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\cmpabs_ui.c">
+      <ObjectFileName>$(IntDir)mpz_cmpabs_ui.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\cmp_d.c">
+      <ObjectFileName>$(IntDir)mpz_cmp_d.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\cmp_si.c">
+      <ObjectFileName>$(IntDir)mpz_cmp_si.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\cmp_ui.c">
+      <ObjectFileName>$(IntDir)mpz_cmp_ui.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\com.c">
+      <ObjectFileName>$(IntDir)mpz_com.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\combit.c">
+      <ObjectFileName>$(IntDir)mpz_combit.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\cong.c">
+      <ObjectFileName>$(IntDir)mpz_cong.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\cong_2exp.c">
+      <ObjectFileName>$(IntDir)mpz_cong_2exp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\cong_ui.c">
+      <ObjectFileName>$(IntDir)mpz_cong_ui.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\divegcd.c">
+      <ObjectFileName>$(IntDir)mpz_divegcd.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\divexact.c">
+      <ObjectFileName>$(IntDir)mpz_divexact.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\dive_ui.c">
+      <ObjectFileName>$(IntDir)mpz_dive_ui.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\divis.c">
+      <ObjectFileName>$(IntDir)mpz_divis.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\divis_2exp.c">
+      <ObjectFileName>$(IntDir)mpz_divis_2exp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\divis_ui.c">
+      <ObjectFileName>$(IntDir)mpz_divis_ui.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\dump.c">
+      <ObjectFileName>$(IntDir)mpz_dump.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\export.c">
+      <ObjectFileName>$(IntDir)mpz_export.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\fac_ui.c">
+      <ObjectFileName>$(IntDir)mpz_fac_ui.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\fdiv_q.c">
+      <ObjectFileName>$(IntDir)mpz_fdiv_q.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\fdiv_qr.c">
+      <ObjectFileName>$(IntDir)mpz_fdiv_qr.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\fdiv_qr_ui.c">
+      <ObjectFileName>$(IntDir)mpz_fdiv_qr_ui.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\fdiv_q_ui.c">
+      <ObjectFileName>$(IntDir)mpz_fdiv_q_ui.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\fdiv_r.c">
+      <ObjectFileName>$(IntDir)mpz_fdiv_r.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\fdiv_r_ui.c">
+      <ObjectFileName>$(IntDir)mpz_fdiv_r_ui.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\fdiv_ui.c">
+      <ObjectFileName>$(IntDir)mpz_fdiv_ui.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\fib2_ui.c">
+      <ObjectFileName>$(IntDir)mpz_fib2_ui.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\fib_ui.c">
+      <ObjectFileName>$(IntDir)mpz_fib_ui.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\fits_sint.c">
+      <ObjectFileName>$(IntDir)mpz_fits_sint.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\fits_slong.c">
+      <ObjectFileName>$(IntDir)mpz_fits_slong.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\fits_sshort.c">
+      <ObjectFileName>$(IntDir)mpz_fits_sshort.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\fits_uint.c">
+      <ObjectFileName>$(IntDir)mpz_fits_uint.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\fits_ulong.c">
+      <ObjectFileName>$(IntDir)mpz_fits_ulong.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\fits_ushort.c">
+      <ObjectFileName>$(IntDir)mpz_fits_ushort.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\gcd.c">
+      <ObjectFileName>$(IntDir)mpz_gcd.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\gcdext.c">
+      <ObjectFileName>$(IntDir)mpz_gcdext.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\gcd_ui.c">
+      <ObjectFileName>$(IntDir)mpz_gcd_ui.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\getlimbn.c">
+      <ObjectFileName>$(IntDir)mpz_getlimbn.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\get_d.c">
+      <ObjectFileName>$(IntDir)mpz_get_d.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\get_d_2exp.c">
+      <ObjectFileName>$(IntDir)mpz_get_d_2exp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\get_si.c">
+      <ObjectFileName>$(IntDir)mpz_get_si.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\get_str.c">
+      <ObjectFileName>$(IntDir)mpz_get_str.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\get_ui.c">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\hamdist.c">
+      <ObjectFileName>$(IntDir)mpz_hamdist.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\import.c">
+      <ObjectFileName>$(IntDir)mpz_import.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\init.c">
+      <ObjectFileName>$(IntDir)mpz_init.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\init2.c">
+      <ObjectFileName>$(IntDir)mpz_init2.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\inits.c">
+      <ObjectFileName>$(IntDir)mpz_inits.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\inp_raw.c">
+      <ObjectFileName>$(IntDir)mpz_inp_raw.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\inp_str.c">
+      <ObjectFileName>$(IntDir)mpz_inp_str.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\invert.c">
+      <ObjectFileName>$(IntDir)mpz_invert.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\ior.c">
+      <ObjectFileName>$(IntDir)mpz_ior.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\iset.c">
+      <ObjectFileName>$(IntDir)mpz_iset.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\iset_d.c">
+      <ObjectFileName>$(IntDir)mpz_iset_d.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\iset_si.c">
+      <ObjectFileName>$(IntDir)mpz_iset_si.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\iset_str.c">
+      <ObjectFileName>$(IntDir)mpz_iset_str.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\iset_ui.c">
+      <ObjectFileName>$(IntDir)mpz_iset_ui.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\jacobi.c">
+      <ObjectFileName>$(IntDir)mpz_jacobi.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\kronsz.c">
+      <ObjectFileName>$(IntDir)mpz_kronsz.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\kronuz.c">
+      <ObjectFileName>$(IntDir)mpz_kronuz.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\kronzs.c">
+      <ObjectFileName>$(IntDir)mpz_kronzs.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\kronzu.c">
+      <ObjectFileName>$(IntDir)mpz_kronzu.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\lcm.c">
+      <ObjectFileName>$(IntDir)mpz_lcm.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\lcm_ui.c">
+      <ObjectFileName>$(IntDir)mpz_lcm_ui.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\limbs_finish.c">
+      <ObjectFileName>$(IntDir)mpz_limbs_finish.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\limbs_modify.c">
+      <ObjectFileName>$(IntDir)mpz_limbs_modify.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\limbs_read.c">
+      <ObjectFileName>$(IntDir)mpz_limbs_read.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\limbs_write.c">
+      <ObjectFileName>$(IntDir)mpz_limbs_write.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\lucmod.c">
+      <ObjectFileName>$(IntDir)mpz_lucmod.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\lucnum2_ui.c">
+      <ObjectFileName>$(IntDir)mpz_lucnum2_ui.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\lucnum_ui.c">
+      <ObjectFileName>$(IntDir)mpz_lucnum_ui.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\mfac_uiui.c">
+      <ObjectFileName>$(IntDir)mpz_mfac_uiui.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\millerrabin.c">
+      <ObjectFileName>$(IntDir)mpz_millerrabin.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\mod.c">
+      <ObjectFileName>$(IntDir)mpz_mod.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\mul.c">
+      <ObjectFileName>$(IntDir)mpz_mul.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\mul_2exp.c">
+      <ObjectFileName>$(IntDir)mpz_mul_2exp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\mul_si.c">
+      <ObjectFileName>$(IntDir)mpz_mul_si.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\mul_ui.c">
+      <ObjectFileName>$(IntDir)mpz_mul_ui.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\neg.c">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\nextprime.c">
+      <ObjectFileName>$(IntDir)mpz_nextprime.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\n_pow_ui.c">
+      <ObjectFileName>$(IntDir)mpz_n_pow_ui.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\oddfac_1.c">
+      <ObjectFileName>$(IntDir)mpz_oddfac_1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\out_raw.c">
+      <ObjectFileName>$(IntDir)mpz_out_raw.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\out_str.c">
+      <ObjectFileName>$(IntDir)mpz_out_str.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\perfpow.c">
+      <ObjectFileName>$(IntDir)mpz_perfpow.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\perfsqr.c">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\popcount.c">
+      <ObjectFileName>$(IntDir)mpz_popcount.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\powm.c">
+      <ObjectFileName>$(IntDir)mpz_powm.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\powm_sec.c">
+      <ObjectFileName>$(IntDir)mpz_powm_sec.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\powm_ui.c">
+      <ObjectFileName>$(IntDir)mpz_powm_ui.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\pow_ui.c">
+      <ObjectFileName>$(IntDir)mpz_pow_ui.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\pprime_p.c">
+      <ObjectFileName>$(IntDir)mpz_pprime_p.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\primorial_ui.c">
+      <ObjectFileName>$(IntDir)mpz_primorial_ui.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\prodlimbs.c">
+      <ObjectFileName>$(IntDir)mpz_prodlimbs.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\random.c">
+      <ObjectFileName>$(IntDir)mpz_random.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\random2.c">
+      <ObjectFileName>$(IntDir)mpz_random2.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\realloc.c">
+      <ObjectFileName>$(IntDir)mpz_realloc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\realloc2.c">
+      <ObjectFileName>$(IntDir)mpz_realloc2.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\remove.c">
+      <ObjectFileName>$(IntDir)mpz_remove.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\roinit_n.c">
+      <ObjectFileName>$(IntDir)mpz_roinit_n.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\root.c">
+      <ObjectFileName>$(IntDir)mpz_root.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\rootrem.c">
+      <ObjectFileName>$(IntDir)mpz_rootrem.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\rrandomb.c">
+      <ObjectFileName>$(IntDir)mpz_rrandomb.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\scan0.c">
+      <ObjectFileName>$(IntDir)mpz_scan0.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\scan1.c">
+      <ObjectFileName>$(IntDir)mpz_scan1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\set.c">
+      <ObjectFileName>$(IntDir)mpz_set.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\setbit.c">
+      <ObjectFileName>$(IntDir)mpz_setbit.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\set_d.c">
+      <ObjectFileName>$(IntDir)mpz_set_d.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\set_f.c">
+      <ObjectFileName>$(IntDir)mpz_set_f.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\set_q.c">
+      <ObjectFileName>$(IntDir)mpz_set_q.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\set_si.c">
+      <ObjectFileName>$(IntDir)mpz_set_si.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\set_str.c">
+      <ObjectFileName>$(IntDir)mpz_set_str.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\set_ui.c">
+      <ObjectFileName>$(IntDir)mpz_set_ui.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\size.c">
+      <ObjectFileName>$(IntDir)mpz_size.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\sizeinbase.c">
+      <ObjectFileName>$(IntDir)mpz_sizeinbase.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\sqrt.c">
+      <ObjectFileName>$(IntDir)mpz_sqrt.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\sqrtrem.c">
+      <ObjectFileName>$(IntDir)mpz_sqrtrem.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\stronglucas.c">
+      <ObjectFileName>$(IntDir)mpz_stronglucas.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\sub.c">
+      <ObjectFileName>$(IntDir)mpz_sub.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\sub_ui.c">
+      <ObjectFileName>$(IntDir)mpz_sub_ui.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\swap.c">
+      <ObjectFileName>$(IntDir)mpz_swap.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\tdiv_q.c">
+      <ObjectFileName>$(IntDir)mpz_tdiv_q.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\tdiv_qr.c">
+      <ObjectFileName>$(IntDir)mpz_tdiv_qr.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\tdiv_qr_ui.c">
+      <ObjectFileName>$(IntDir)mpz_tdiv_qr_ui.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\tdiv_q_2exp.c">
+      <ObjectFileName>$(IntDir)mpz_tdiv_q_2exp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\tdiv_q_ui.c">
+      <ObjectFileName>$(IntDir)mpz_tdiv_q_ui.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\tdiv_r.c">
+      <ObjectFileName>$(IntDir)mpz_tdiv_r.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\tdiv_r_2exp.c">
+      <ObjectFileName>$(IntDir)mpz_tdiv_r_2exp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\tdiv_r_ui.c">
+      <ObjectFileName>$(IntDir)mpz_tdiv_r_ui.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\tdiv_ui.c">
+      <ObjectFileName>$(IntDir)mpz_tdiv_ui.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\tstbit.c">
+      <ObjectFileName>$(IntDir)mpz_tstbit.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\ui_pow_ui.c">
+      <ObjectFileName>$(IntDir)mpz_ui_pow_ui.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\ui_sub.c">
+      <ObjectFileName>$(IntDir)mpz_ui_sub.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\urandomb.c">
+      <ObjectFileName>$(IntDir)mpz_urandomb.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\urandomm.c">
+      <ObjectFileName>$(IntDir)mpz_urandomm.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\packages\gmp\mpz\xor.c">
+      <ObjectFileName>$(IntDir)mpz_xor.obj</ObjectFileName>
+    </ClCompile>
+    
+    
+    <ClCompile Include="..\..\packages\gmp\scanf\doscan.c">
+      <ObjectFileName>$(IntDir)scanf_doscan.obj</ObjectFileName>
+      <DisableSpecificWarnings>4244;4146;4267;4018;4334;4101</DisableSpecificWarnings>
+    </ClCompile>
+    
+  </ItemGroup>
+  
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{e1098600-24d8-4fa1-a781-94fab06e9940}</ProjectGuid>
+    <RootNamespace>gmp</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug lib|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug dll|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release lib|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release dll|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug lib|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug dll|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release lib|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release dll|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug dll|x64'">
+    <TargetName>$(ProjectName)d</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release dll|x64'">
+    <TargetName>$(ProjectName)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug lib|x64'">
+    <TargetName>$(ProjectName)d</TargetName>
+  </PropertyGroup>
+  
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug lib|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>__GMP_WITHIN_GMP;_DEBUG;_LIB;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE
+;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <ExceptionHandling>SyncCThrow</ExceptionHandling>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)..\..\packages\gmp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4244;4146;4267;4018;4334;4703</DisableSpecificWarnings>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug dll|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>__GMP_WITHIN_GMP;__GMP_LIBGMP_DLL;_DEBUG;_LIB;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE
+;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <ExceptionHandling>SyncCThrow</ExceptionHandling>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)..\..\packages\gmp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4244;4146;4267;4018;4334;4703</DisableSpecificWarnings>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <!--<ModuleDefinitionFile>$(ProjectDir)..\..\packages\zlib\win32\zlib.def</ModuleDefinitionFile>-->
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <ImportLibrary>$(OutDir)gmpdlld.lib</ImportLibrary>
+      <ModuleDefinitionFile>
+      </ModuleDefinitionFile>
+    </Link>
+    <Manifest>
+      <InputResourceManifests>
+      </InputResourceManifests>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release lib|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>__GMP_WITHIN_GMP;NDEBUG;_LIB;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <ExceptionHandling>SyncCThrow</ExceptionHandling>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)..\..\packages\gmp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4244;4146;4267;4018;4334;4703</DisableSpecificWarnings>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release dll|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>__GMP_WITHIN_GMP;__GMP_LIBGMP_DLL;NDEBUG;_LIB;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <ExceptionHandling>SyncCThrow</ExceptionHandling>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)..\..\packages\gmp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4244;4146;4267;4018;4334;4703</DisableSpecificWarnings>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <!--<ModuleDefinitionFile>$(ProjectDir)..\..\packages\zlib\win32\gmp.def</ModuleDefinitionFile>-->
+      <ImportLibrary>$(OutDir)gmpdll.lib</ImportLibrary>
+      <ModuleDefinitionFile>
+      </ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
