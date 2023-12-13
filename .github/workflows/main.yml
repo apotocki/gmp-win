@@ -32,6 +32,7 @@ jobs:
         mkdir build\lib
         mkdir build\bin
         xcopy vs-projects\gmp\gmp.h build\include
+        xcopy packages\gmp\gmpxx.h build\include
         xcopy "vs-projects\gmp\x64\Debug dll\*.dll" build\bin\
         xcopy "vs-projects\gmp\x64\Debug dll\*.lib" build\lib\
         xcopy "vs-projects\gmp\x64\Debug lib\*.lib" build\lib\

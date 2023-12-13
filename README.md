@@ -4,6 +4,8 @@ The solution is able to build both static and dynamic libraries in debug and rel
 
 The actual gmp sources are included in a subfolder packages/gmp
 
+At the moment generic C implementation for mpn is used.
+
 Tested version: 6.3.0
 
 ## How to build?
