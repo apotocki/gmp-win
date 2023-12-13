@@ -196,7 +196,7 @@ mpf_t_cmp_si_main();
 std::cout << "testing t-get_d.c...\n";
 mpf_t_get_d_main(argc, argv);
 std::cout << "testing reuse.c...\n";
-mpf_reuse_main(argc, argv);
+mpf_reuse_main();
 std::cout << "testing t-sqrt_ui.c...\n";
 mpf_t_sqrt_ui_main(argc, argv);
 std::cout << "testing t-pow_ui.c...\n";

@@ -121,7 +121,7 @@ mpq_t_aors_main();
 std::cout << "testing t-cmp.c...\n";
 mpq_t_cmp_main(argc, argv);
 std::cout << "testing reuse.c...\n";
-mpq_reuse_main(argc, argv);
+mpq_reuse_main();
 std::cout << "testing t-cmp_z.c...\n";
 mpq_t_cmp_z_main(argc, argv);
 std::cout << "testing t-cmp_si.c...\n";

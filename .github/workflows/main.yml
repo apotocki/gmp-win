@@ -39,6 +39,12 @@ jobs:
         xcopy "vs-projects\gmp\x64\Release dll\*.dll" build\bin\
         xcopy "vs-projects\gmp\x64\Release dll\*.lib" build\lib\
         xcopy "vs-projects\gmp\x64\Release lib\*.lib" build\lib\
+        xcopy "vs-projects\gmpxx\x64\Debug dll\*.dll" build\bin\
+        xcopy "vs-projects\gmpxx\x64\Debug dll\*.lib" build\lib\
+        xcopy "vs-projects\gmpxx\x64\Debug lib\*.lib" build\lib\
+        xcopy "vs-projects\gmpxx\x64\Release dll\*.dll" build\bin\
+        xcopy "vs-projects\gmpxx\x64\Release dll\*.lib" build\lib\
+        xcopy "vs-projects\gmpxx\x64\Release lib\*.lib" build\lib\
         Compress-Archive -Path build/* -Destination gmp-6.3.0.zip
     - name: Release
       uses: softprops/action-gh-release@v1

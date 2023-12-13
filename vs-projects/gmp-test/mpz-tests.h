@@ -538,7 +538,7 @@ mpz_t_perfpow_main(argc, argv);
 std::cout << "testing t-lucnum_ui.c...\n";
 mpz_t_lucnum_ui_main(argc, argv);
 std::cout << "testing reuse.c...\n";
-mpz_reuse_main(argc, argv);
+mpz_reuse_main();
 std::cout << "testing dive_ui.c...\n";
 mpz_dive_ui_main(argc, argv);
 std::cout << "testing t-cdiv_ui.c...\n";
