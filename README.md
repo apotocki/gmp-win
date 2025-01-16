@@ -1,3 +1,5 @@
+[<img src="https://api.gitsponsors.com/api/badge/img?id=730903610" height="20">](https://api.gitsponsors.com/api/badge/link?p=+UaTpf/X7QVU2rh9pLzkO5IvBYTIH43H2x1PEEkqpEGSIE2ObmPztN83c1F9p4orvwJoXOVWKVCnl9fPCni6Xe/ETd8+G8qngBApL2er38ZQ3Dr2JYA4o+uipqUyJlFKtchI7CqJB2HkLObgEvcjdQ==)
+
 This repo contains project and solution files for building GMP library for Windows using Visual Studio.
 
 The solution is able to build both static and dynamic libraries in debug and release configurations for x64 architecture
