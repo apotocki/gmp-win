@@ -1,5 +1,4 @@
 [<img src="https://api.gitsponsors.com/api/badge/img?id=730903610" height="50">](https://api.gitsponsors.com/api/badge/link?p=+UaTpf/X7QVU2rh9pLzkO0nO+0PWF4hEmiTvnrSVaqOWWDMYu6JTVRYA2cj1r2KcT0Nk3RsmKNPqPM6BbjJWrkQjwsZAX/zXP3uLa8d+UE7eggWv8VH92HJ1S7reX51z1HpitLbRFtSf3zZrriI/iA==)
-[<img src="https://api.gitsponsors.com/api/badge/img?id=730903610" height="50">](https://api.gitsponsors.com/api/badge/link?p=+UaTpf/X7QVU2rh9pLzkO0nO+0PWF4hEmiTvnrSVaqOWWDMYu6JTVRYA2cj1r2KcT0Nk3RsmKNPqPM6BbjJWrkQjwsZAX/zXP3uLa8d+UE7eggWv8VH92HJ1S7reX51z1HpitLbRFtSf3zZrriI/iA==)
 
 This repo contains project and solution files for building GMP library for Windows using Visual Studio.
 
