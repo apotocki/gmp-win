@@ -8,6 +8,37 @@ At the moment generic C implementation for mpn is used.
 
 Tested version: 6.3.0
 
+> **Now available through [otok](https://otok-dev.github.io/).** otok builds GMP from source on your machine with your Visual Studio, with GMP's assembly, and hands it to your build: property sheets for Visual Studio projects and a CMake package. See [Using otok](#using-otok-recommended). The solution of this repository remains available.
+
+## Using otok (recommended)
+
+Install [otok](https://otok-dev.github.io/) (`scoop bucket add otok https://github.com/otok-dev/scoop-bucket; scoop install otok`) and put an `otok.toml` next to your solution:
+
+```toml
+[otok]
+format = 1
+
+[windows]
+build-on = ["windows/msvc"]
+architectures = { windows = ["x86_64"] }
+configurations = ["debug", "release"]
+
+[deps.gmp]
+recipe = "apotocki/gmp"
+version = "~> 6.3"
+```
+
+```powershell
+otok install
+```
+
+- otok builds GMP 6.3.0 from the release archive with GMP's own configure and make (an MSYS2 tree that otok also builds from a recipe) and MSVC. Unlike the solution of this repository, which uses the generic C code of `mpn`, it keeps GMP's assembly as a fat binary, which chooses the code for the CPU it runs on.
+- The products are `GMP` (libgmp, `gmp.h`) and `GMPXX` (the C++ class interface, `gmpxx.h`). Static libraries by default; `linkage = "dynamic"` in `[windows]` gives DLLs.
+- `configurations` builds both: a debug program links the libraries built against the debug CRT.
+- In a Visual Studio project, import `Otok\otok.props` before the project's settings and `Otok\otok.targets` at the end, and name the products to link in `<OtokProducts>GMP;GMPXX</OtokProducts>`. From CMake, `find_package(Otok CONFIG REQUIRED PATHS "${CMAKE_SOURCE_DIR}/Otok" NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)` and `target_link_libraries(app PRIVATE otok::GMPXX)`. See [First project for Windows](https://otok-dev.github.io/start/windows/).
+- `otok.lock` pins the versions, the recipes and the sources by their hashes: commit it with `otok.toml`. `Otok/` is generated: add it to `.gitignore`.
+- The recipe is in the [catalog](https://otok-dev.github.io/index/recipes/apotocki/gmp/) (or `otok info apotocki/gmp`).
+
 ## How to build?
     # clone the repo
     git clone https://github.com/apotocki/gmp-win
